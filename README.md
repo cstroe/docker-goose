@@ -30,6 +30,7 @@ Configuration
 The following environment variables can be passed to the container:
 
 * `GOOSE_ENV` - customizes the goose `-env` flag value.  Defaults to `default`.
+* `DEBUG` - if this environment variable is defined, print values of environment variables.
 
 Example
 -------
